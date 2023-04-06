@@ -1,0 +1,75 @@
+body{
+    padding: 0px;
+    margin: 0px;    
+    display: block;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+}
+
+section{
+    display: block;
+    position: relative;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    align-items: center;
+}
+.pages{
+    display: inline;
+    max-width: 100%;
+}
+
+.nav{
+    height: 80px;
+    padding: 0px;
+    margin: 0px;
+    background-color:black
+
+}
+.nav-links ul{
+    margin: 0px;
+}
+.nav-links li{
+    list-style-type: none;
+    display: inline;
+    text-align: center;
+    margin: 0px 10px;
+    color: white;
+    background-color: black;
+
+}
+/* Hero image, banner section */
+.hero-image {
+    background-image: url("./images/theater-hero-.png");
+    width: 100%;
+    min-height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin: 0px;
+}
+
+.hero-text{
+    vertical-align: center;
+    text-align: center;
+    color: white;
+    padding-top: 100px;
+}
+
+/* Shows section */
+.pic{
+    align-items: center;
+    display: inline;
+    width: 60%;
+}
+
+h3{
+    background-color: lightgray;
+    align-items: center;
+}
